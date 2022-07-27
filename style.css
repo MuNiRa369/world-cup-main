@@ -163,21 +163,23 @@ hr{
         width: 258px;
         height: 178px;
     }
-    .headline>h1{
+    .banner>.headline>h1{
         width: 228px;
         height: 66px;
         font-weight: 700;
         font-size: 30px;
         text-align: center;
-    }        
+        padding-bottom: 50px;
+    } 
     .banner-img>img{
+        padding-top: 120px;
         width: 233px;
         height: 245px; 
         padding-left: 50%;
         top: 271px;
     }
     .headline>p{
-      
+        padding-top: 30px;
         text-align:justify;
         
     }
