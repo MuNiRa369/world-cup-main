@@ -143,11 +143,135 @@ hr{
     Text-decoration : none ;
 }
 
-/* media quaries */
+/* -------media quaries------- */
+
 /* mobile device */
-@media only screen and (min-width:320px) and (max-width:480px){
+@media only screen and (max-width:576px){
     .banner{
         width: 100%;
-        margin: 20px;
+        flex-wrap: wrap;
+        margin:5px;
+    }
+    .headline{
+        width: 258px;
+        height: 178px;
+    }
+    .headline>h1{
+        width: 228px;
+        height: 66px;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    }        
+    .banner-img>img{
+        width: 233px;
+        height: 245px; 
+        padding-left: 50%;
+        top: 271px;
+    }
+    .headline>p{
+      
+        text-align:justify;
+        
+    }
+    .grid-artical{
+        display: grid;
+        grid-template-columns:repeat(1,1fr); 
+    }
+    .artical{
+        display: grid;
+        grid-template-columns:repeat(1,1fr); 
+    }
+    .main-margin{
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .fixed-button{
+        background:none;
+        text-align: center;
+    }
+    .foot{
+        height: 447px;
+        margin: 0%;
+    }
+    .goal{
+        font-weight: 600;
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .info>a{
+        padding-bottom: 20px;
+    }
+}
+/* Tablet device */
+@media only screen and (min-width:577px) and (max-width:1024px){
+    .banner{
+        width: 100%;
+        height: 398px;
+        margin:5px;
+    }
+    .headline{
+        width: 316px;
+        height: 276px;
+    }
+    .headline>h1{
+        width: 228px;
+        height: 66px;
+        font-weight: 700;
+        font-size: 30px;
+    }        
+    .banner-img>img{
+        width: 323px;
+        height: 340px;
+        top: 108px;
+    }
+    .grid-artical{
+        display: grid;
+        grid-template-columns:repeat(1,1fr); 
+    }
+    .artical{
+        display: grid;
+        grid-template-columns:repeat(2,1fr); 
+    }
+    .main-margin{
+        margin:50px
+    }
+    .blog-match{
+        height: 112px; 
+    }
+    .fixed-button{
+        padding: 0px;
+        width: 834px;
+        background:none;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .button-gap{
+        margin-top: 0px;
+    }
+    .foot{
+        height: 447px;
+        margin: 0%;
+    }
+    .goal{
+        font-weight: 600;
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .info>a{
+        padding-bottom: 20px;
+    }
+    .artical{ 
+        justify-items: center;
     }
 }
