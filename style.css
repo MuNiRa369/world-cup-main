@@ -1,4 +1,9 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@500&family=Yellowtail&display=swap');
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
 /* ------banner Part------ */
 .banner{
     margin: 50px 140px 130px 140px;
@@ -142,7 +147,9 @@ hr{
     color: #B9B9B9;
     Text-decoration : none ;
 }
-
+.display{
+    display: none;
+}
 /* -------media quaries------- */
 
 /* mobile device */
@@ -220,7 +227,7 @@ hr{
         height: 276px;
     }
     .headline>h1{
-        width: 228px;
+        width: 328px;
         height: 66px;
         font-weight: 700;
         font-size: 30px;
@@ -273,5 +280,28 @@ hr{
     }
     .artical{ 
         justify-items: center;
+    }
+    /* ---View All button--- */
+    #show{
+        display: none;
+    }
+    .display{
+        display: block;
+        padding-left: 40%;
+    }
+    .display>button
+    {
+        width: 187px;
+        height: 56px;  
+        background: #DD0000;
+        border-radius: 5px;
+        padding: 16px 25px;
+        text-align: center;
+    }
+    .display>button>p{
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 0px;
     }
 }
