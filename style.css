@@ -89,8 +89,15 @@ body{
     font-size: 20px;
     background: #FFFFFF;
     border-radius: 10px;
-    text-align: center;
+    text-align : center;
 }
+.fixed-button>button>a{
+    text-decoration: none;
+  
+}
+.fixed-button>button:hover{
+    background-color: lightcyan;
+} 
 .button-gap{
     margin-top: 30px;
 }
